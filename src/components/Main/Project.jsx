@@ -86,6 +86,96 @@ const Project = () => {
               </a>
             </div>
           </SwiperSlide>
+
+          {/* BUDGET BUDDY */}
+          <SwiperSlide className="contain">
+            <img src={projectImage(`./budget.jpg`)} alt="projects" />
+            <div className="content">
+              <h3>Budget Buddy</h3>
+              <p> Expense Tracker Tool</p>
+              <p className="technologies">
+                React-Js
+                <span> -</span> Firebase
+                <span> -</span> Tailwind CSS
+              </p>
+              <a
+                href="https://react-budget-buddy.netlify.app/"
+                className="custom-btn btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>Demo</span>
+              </a>
+              <a
+                href="https://github.com/akshaygit2003/ExpenseTracker"
+                className="custom-btn btn-code"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Repository
+              </a>
+            </div>
+          </SwiperSlide>
+
+          {/* INTERIOR */}
+          <SwiperSlide className="contain">
+            <img src={projectImage(`./interiorfinal.png`)} alt="projects" />
+            <div className="content">
+              <h3>Interior Design Website</h3>
+              <p>Interior Design Landing Page</p>
+              <p className="technologies">
+                React-Js
+                <span> -</span> Tailwind CSS
+                <span> -</span> Framer Motion
+              </p>
+              <a
+                href="https://interiorbyakshay.netlify.app/"
+                className="custom-btn btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>Demo</span>
+              </a>
+              <a
+                href="https://github.com/akshaygit2003/Interior-Design-React"
+                className="custom-btn btn-code"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Repository
+              </a>
+            </div>
+          </SwiperSlide>
+
+          {/* WEATHER  */}
+          <SwiperSlide className="contain">
+            <img src={projectImage(`./weather.jpg`)} alt="projects" />
+            <div className="content">
+              <h3>Weather Tool</h3>
+              <p>Weather Tracking Tool </p>
+              <p className="technologies">
+                React-Js
+                <span> -</span> Open-Weather API
+              </p>
+              <a
+                href="https://tracktemperature.netlify.app/"
+                className="custom-btn btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>Demo</span>
+              </a>
+              <a
+                href="https://github.com/akshaygit2003/Weather-App"
+                className="custom-btn btn-code"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Repository
+              </a>
+            </div>
+          </SwiperSlide>
+
           <SwiperSlide className="contain">
             <img src={projectImage(`./Text Wizards.jpg`)} alt="projects" />
             <div className="content">

@@ -27,9 +27,10 @@ const Project = () => {
   const [stateModal5, setStateModal5] = useState(false);
   const [stateModal6, setStateModal6] = useState(false);
   const [stateModal7, setStateModal7] = useState(false);
-  // const [stateModal8, setStateModal8] = useState(false);
-  // const [stateModal9, setStateModal9] = useState(false);
-  // const [stateModal10, setStateModal10] = useState(false);
+
+  const [stateModal8, setStateModal8] = useState(false);
+  const [stateModal9, setStateModal9] = useState(false);
+  const [stateModal10, setStateModal10] = useState(false);
   // const [stateModal11, setStateModal11] = useState(false);
   // const [stateModal12, setStateModal12] = useState(false);
   // const [stateModal13, setStateModal13] = useState(false);
@@ -54,6 +55,17 @@ const Project = () => {
         </section>
 
         <section className="projects__grid ">
+          {/* expense Tracker  */}
+          <div className="projects__item">
+            <button onClick={() => setStateModal9(!stateModal9)}>
+              <img
+                src={proyectsImg(`./budget.jpg`)}
+                alt=""
+                className="projects__img"
+              />
+            </button>
+          </div>
+
           <div className="projects__item">
             <button onClick={() => setStateModal1(!stateModal1)}>
               <img
@@ -64,6 +76,26 @@ const Project = () => {
             </button>
           </div>
 
+          {/* Interior  */}
+          <div className="projects__item">
+            <button onClick={() => setStateModal8(!stateModal8)}>
+              <img
+                src={proyectsImg(`./interiorfinal.png`)}
+                alt=""
+                className="projects__img"
+              />
+            </button>
+          </div>
+          {/* weather  */}
+          <div className="projects__item">
+            <button onClick={() => setStateModal10(!stateModal10)}>
+              <img
+                src={proyectsImg(`./weather.jpg`)}
+                alt=""
+                className="projects__img"
+              />
+            </button>
+          </div>
           <div className="projects__item">
             <button onClick={() => setStateModal2(!stateModal2)}>
               <img
@@ -453,6 +485,183 @@ const Project = () => {
                   />
                   <img
                     src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Modal>
+
+      {/* interior modal -8 */}
+
+      <Modal state={stateModal8} setState={setStateModal8}>
+        <div className="content-modal">
+          <div className="pw-content">
+            <div className="single-modal-preview">
+              <img src={proyectsImg(`./interiorfinal.png`)} alt="" />
+            </div>
+            <div className="single-modal-text">
+              <p>
+                <FormattedMessage
+                  id="projects-info-8-p1"
+                  defaultMessage="Built an Interior Design website using React, Tailwind CSS, and Framer Motion for smooth animations."
+                />
+              </p>
+              <p>
+                <FormattedMessage
+                  id="projects-info-8-p2"
+                  defaultMessage="Showcases responsive layouts optimized for different screen sizes, ensuring a seamless user experience and Demonstrates proficiency in Tailwind CSS for utility-first styling and Framer Motion for dynamic UI elements."
+                />
+              </p>
+              <div className="single-modal-text-2">
+                <span>Link:</span>{" "}
+                <a
+                  href="https://interiorbyakshay.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Click Here !
+                </a>
+              </div>
+              <div className="single-modal-text-3">
+                <span>
+                  <FormattedMessage
+                    id="projects-tec"
+                    defaultMessage="Used technology:"
+                  />
+                </span>
+                <div className="single-modal-tech">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
+                    alt=""
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                    alt=""
+                  />
+
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/framermotion/framermotion-original.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Modal>
+
+      {/* expense modal  */}
+
+      <Modal state={stateModal9} setState={setStateModal9}>
+        <div className="content-modal">
+          <div className="pw-content">
+            <div className="single-modal-preview">
+              <img src={proyectsImg(`./budgetbuddy.jpg`)} alt="" />
+            </div>
+            <div className="single-modal-text">
+              <p>
+                <FormattedMessage
+                  id="projects-info-9-p1"
+                  defaultMessage="Developed an Expense Tracker app using React, Firebase, and Ant Design, featuring user authentication."
+                />
+              </p>
+              <p>
+                <FormattedMessage
+                  id="projects-info-9-p2"
+                  defaultMessage="Implemented functionality for importing/exporting data to CSV and visualizing expenses through interactive graphs.Built a fully responsive design for seamless use across devices."
+                />
+              </p>
+              <div className="single-modal-text-2">
+                <span>Link:</span>{" "}
+                <a
+                  href="https://react-budget-buddy.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Click Here !
+                </a>
+              </div>
+              <div className="single-modal-text-3">
+                <span>
+                  <FormattedMessage
+                    id="projects-tec"
+                    defaultMessage="Used technology:"
+                  />
+                </span>
+                <div className="single-modal-tech">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
+                    alt=""
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-plain-wordmark.svg"
+                    alt=""
+                  />
+
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/antdesign/antdesign-original.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Modal>
+
+      {/* weather model  */}
+
+      <Modal state={stateModal10} setState={setStateModal10}>
+        <div className="content-modal">
+          <div className="pw-content">
+            <div className="single-modal-preview">
+              <img src={proyectsImg(`./txt analyser tool.jpeg`)} alt="" />
+            </div>
+            <div className="single-modal-text">
+              <p>
+                <FormattedMessage
+                  id="projects-info-2-p1"
+                  defaultMessage="Built a Text Analyzer with features to format text, including uppercase, lowercase, and clearing text."
+                />
+              </p>
+              <p>
+                <FormattedMessage
+                  id="projects-info-2-p2"
+                  defaultMessage="The tool is enriched with advanced functionalities such as dark/light theme toggles, text-to-speech conversion, copying text, and estimating reading time."
+                />
+              </p>
+              <div className="single-modal-text-2">
+                <span>Link:</span>{" "}
+                <a
+                  href="https://text-wizards.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Click Here !
+                </a>
+              </div>
+              <div className="single-modal-text-3">
+                <span>
+                  <FormattedMessage
+                    id="projects-tec"
+                    defaultMessage="Used technology:"
+                  />
+                </span>
+                <div className="single-modal-tech">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
+                    alt=""
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                    alt=""
+                  />
+
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
                     alt=""
                   />
                 </div>
