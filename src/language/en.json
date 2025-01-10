@@ -86,9 +86,10 @@
 
   "projects-info-8-p1": "Built an Interior Design website using React, Tailwind CSS, and Framer Motion for smooth animations.",
   "projects-info-8-p2": "Showcases responsive layouts optimized for different screen sizes, ensuring a seamless user experience and Demonstrates proficiency in Tailwind CSS for utility-first styling and Framer Motion for dynamic UI elements.",
+
   "projects-info-9-p1": "Developed an Expense Tracker app using React, Firebase, and Ant Design, featuring user authentication.",
   "projects-info-9-p2": "Implemented functionality for importing/exporting data to CSV and visualizing expenses through interactive graphs.Built a fully responsive design for seamless use across devices.",
 
-  "projects-info-10-p1": "  sit amet, consectetur adipiscing elit. Sed etiam, ut auctor, nisi, vitae",
-  "projects-info-10-p2": " sit amet, consectetur adipiscing elit. Sed etiam, ut auctor, nisi, vitae"
+  "projects-info-10-p1": "Built with React and OpenWeather API : Provides real-time weather data, including temperature, humidity, wind speed, and a detailed 7-day forecast.",
+  "projects-info-10-p2": " Enhanced UX with GeoDB Cities Autocomplete : Implements a city search feature with autocomplete for seamless user experience.Fully Responsive Design : Ensures consistent usability across different screen sizes, showcasing proficiency in modern front-end development."
 }

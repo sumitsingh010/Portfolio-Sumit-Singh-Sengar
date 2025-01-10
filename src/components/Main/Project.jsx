@@ -151,7 +151,7 @@ const Project = () => {
           <SwiperSlide className="contain">
             <img src={projectImage(`./weather.jpg`)} alt="projects" />
             <div className="content">
-              <h3>Weather Tool</h3>
+              <h3>Weather Forecast</h3>
               <p>Weather Tracking Tool </p>
               <p className="technologies">
                 React-Js

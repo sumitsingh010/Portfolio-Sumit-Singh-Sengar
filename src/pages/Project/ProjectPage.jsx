@@ -500,7 +500,7 @@ const Project = () => {
         <div className="content-modal">
           <div className="pw-content">
             <div className="single-modal-preview">
-              <img src={proyectsImg(`./interiorfinal.png`)} alt="" />
+              <img src={proyectsImg(`./interiormodel.jpg`)} alt="" />
             </div>
             <div className="single-modal-text">
               <p>
@@ -559,7 +559,7 @@ const Project = () => {
         <div className="content-modal">
           <div className="pw-content">
             <div className="single-modal-preview">
-              <img src={proyectsImg(`./budgetbuddy.jpg`)} alt="" />
+              <img src={proyectsImg(`./expensemodel.jpg`)} alt="" />
             </div>
             <div className="single-modal-text">
               <p>
@@ -618,25 +618,26 @@ const Project = () => {
         <div className="content-modal">
           <div className="pw-content">
             <div className="single-modal-preview">
-              <img src={proyectsImg(`./txt analyser tool.jpeg`)} alt="" />
+              <img src={proyectsImg(`./weathermodel.jpg`)} alt="" />
             </div>
             <div className="single-modal-text">
               <p>
                 <FormattedMessage
-                  id="projects-info-2-p1"
-                  defaultMessage="Built a Text Analyzer with features to format text, including uppercase, lowercase, and clearing text."
+                  id="projects-info-10-p1"
+                  defaultMessage="Built with React and OpenWeather API : Provides real-time weather data, including temperature, humidity, wind speed, and a detailed 7-day forecast."
                 />
               </p>
               <p>
                 <FormattedMessage
-                  id="projects-info-2-p2"
-                  defaultMessage="The tool is enriched with advanced functionalities such as dark/light theme toggles, text-to-speech conversion, copying text, and estimating reading time."
+                  id="projects-info-10-p2"
+                  defaultMessage="Enhanced UX with GeoDB Cities Autocomplete : Implements a city search feature with autocomplete for seamless user experience.
+                  Fully Responsive Design : Ensures consistent usability across different screen sizes, showcasing proficiency in modern front-end development."
                 />
               </p>
               <div className="single-modal-text-2">
                 <span>Link:</span>{" "}
                 <a
-                  href="https://text-wizards.netlify.app/"
+                  href="https://tracktemperature.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -656,12 +657,7 @@ const Project = () => {
                     alt=""
                   />
                   <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
-                    alt=""
-                  />
-
-                  <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
                     alt=""
                   />
                 </div>
