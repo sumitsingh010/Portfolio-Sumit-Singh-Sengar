@@ -32,6 +32,32 @@ const Contact = () => (
       />
     </h3>
 
+    {/* <div
+      className="visme-embed"
+      class="visme_d"
+      data-title="Portfolio Feedback"
+      data-url="01918y93-portfolio-feedback"
+      data-domain="forms"
+      data-full-page="false"
+      data-min-height="500px"
+      data-form-id="112288"
+    >
+      Feedback Form
+      <script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
+    </div> */}
+    <div>
+      <button
+        onClick={() =>
+          window.open(
+            "https://forms.visme.co/formsPlayer/01918y93-portfolio-feedback",
+            "_blank"
+          )
+        }
+        className="visme-embed"
+      >
+        Give Your Valuable Feedback ! 📝
+      </button>
+    </div>
     <div className="icons">
       <a
         href="mailto:akshaynema2003@gmail.com"
