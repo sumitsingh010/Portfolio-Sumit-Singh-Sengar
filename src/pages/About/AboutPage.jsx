@@ -42,7 +42,7 @@ const About = () => {
                 href={cv}
                 target="_blank"
                 rel="noopener noreferrer"
-                download="Akshay_Nema_Resume.pdf"
+                download="UpdatedResume.pdf"
                 className="btn-code cv buttonDownload"
               >
                 <FormattedMessage id="Resume" defaultMessage="Resume" />

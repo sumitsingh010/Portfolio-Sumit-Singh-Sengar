@@ -87,6 +87,76 @@ const Project = () => {
             </div>
           </SwiperSlide>
 
+          {/* Tech Fest Website  */}
+          <SwiperSlide className="contain">
+            <img
+              src={projectImage(`./Enigma Slider Image.jpg`)}
+              alt="projects"
+            />
+            <div className="content">
+              <h3>Enigma : Tech-Fest Website</h3>
+              <p>Mern Based Techfest Website </p>
+              <p className="technologies">
+                React-Js
+                <span> -</span> MongoDB
+                <span> -</span> Express
+                <span> -</span> NodeJs
+                <span> -</span> Sass
+              </p>
+              <a
+                href="https://enigmamits.tech/"
+                className="custom-btn btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>Demo</span>
+              </a>
+              <a
+                href="https://github.com/akshaygit2003/React-Dashboard"
+                className="custom-btn btn-code"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Repository
+              </a>
+            </div>
+          </SwiperSlide>
+
+          {/* SKILLNOTION  */}
+          <SwiperSlide className="contain">
+            <img
+              src={projectImage(`./Task Management Dashboard.jpg`)}
+              alt="projects"
+            />
+            <div className="content">
+              <h3>Skill-Notion</h3>
+              <p>Mern Based Ed-tech Platform </p>
+              <p className="technologies">
+                React-Js
+                <span> -</span> MongoDB
+                <span> -</span> Express
+                <span> -</span> NodeJs
+                <span> -</span> Tailwind CSS
+              </p>
+              <a
+                href="https://brandkiln.netlify.app/"
+                className="custom-btn btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>Demo</span>
+              </a>
+              <a
+                href="https://github.com/akshaygit2003/React-Dashboard"
+                className="custom-btn btn-code"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Repository
+              </a>
+            </div>
+          </SwiperSlide>
+
           {/* BUDGET BUDDY */}
           <SwiperSlide className="contain">
             <img src={projectImage(`./budget.jpg`)} alt="projects" />
