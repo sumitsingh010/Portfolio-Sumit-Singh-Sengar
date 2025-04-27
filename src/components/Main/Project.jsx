@@ -89,10 +89,7 @@ const Project = () => {
 
           {/* Tech Fest Website  */}
           <SwiperSlide className="contain">
-            <img
-              src={projectImage(`./Enigma Slider Image.jpg`)}
-              alt="projects"
-            />
+            <img src={projectImage(`./EnigmaSliderfinal.jpg`)} alt="projects" />
             <div className="content">
               <h3>Enigma : Tech-Fest Website</h3>
               <p>Mern Based Techfest Website </p>
