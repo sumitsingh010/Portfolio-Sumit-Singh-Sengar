@@ -109,7 +109,7 @@ const Project = () => {
                 <span>Demo</span>
               </a>
               <a
-                href="https://github.com/akshaygit2003/React-Dashboard"
+                href="https://enigmamits.tech/"
                 className="custom-btn btn-code"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -121,13 +121,10 @@ const Project = () => {
 
           {/* SKILLNOTION  */}
           <SwiperSlide className="contain">
-            <img
-              src={projectImage(`./Task Management Dashboard.jpg`)}
-              alt="projects"
-            />
+            <img src={projectImage(`./SkillNotionSlider.jpg`)} alt="projects" />
             <div className="content">
               <h3>Skill-Notion</h3>
-              <p>Mern Based Ed-tech Platform </p>
+              <p>Ed-tech Platform</p>
               <p className="technologies">
                 React-Js
                 <span> -</span> MongoDB
@@ -136,7 +133,7 @@ const Project = () => {
                 <span> -</span> Tailwind CSS
               </p>
               <a
-                href="https://brandkiln.netlify.app/"
+                href="https://github.com/akshaygit2003/Eduverse"
                 className="custom-btn btn"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -144,7 +141,7 @@ const Project = () => {
                 <span>Demo</span>
               </a>
               <a
-                href="https://github.com/akshaygit2003/React-Dashboard"
+                href="https://github.com/akshaygit2003/Eduverse"
                 className="custom-btn btn-code"
                 target="_blank"
                 rel="noopener noreferrer"

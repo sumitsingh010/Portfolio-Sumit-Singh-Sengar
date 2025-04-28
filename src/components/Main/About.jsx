@@ -32,14 +32,14 @@ const About = () => (
           />
         </p>
         <ul>
-          <li>
+          {/* <li>
             <p>
               <span>
                 <FormattedMessage id="years" defaultMessage="Age:" />
               </span>
               21
             </p>
-          </li>
+          </li> */}
           <li>
             <p>
               <span>Hobbies: </span>

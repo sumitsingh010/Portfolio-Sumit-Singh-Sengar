@@ -31,8 +31,8 @@ const Project = () => {
   const [stateModal8, setStateModal8] = useState(false);
   const [stateModal9, setStateModal9] = useState(false);
   const [stateModal10, setStateModal10] = useState(false);
-  // const [stateModal11, setStateModal11] = useState(false);
-  // const [stateModal12, setStateModal12] = useState(false);
+  const [stateModal11, setStateModal11] = useState(false);
+  const [stateModal12, setStateModal12] = useState(false);
   // const [stateModal13, setStateModal13] = useState(false);
   // const [stateModal14, setStateModal14] = useState(false);
 
@@ -53,8 +53,27 @@ const Project = () => {
             </NavLink>
           </nav>
         </section>
-
+        {/* TechfestWebsite  */}
         <section className="projects__grid ">
+          <div className="projects__item">
+            <button onClick={() => setStateModal11(!stateModal11)}>
+              <img
+                src={proyectsImg(`./EnigmaSliderfinal.jpg`)}
+                alt=""
+                className="projects__img"
+              />
+            </button>
+          </div>
+          {/* SkillNotion  */}
+          <div className="projects__item">
+            <button onClick={() => setStateModal12(!stateModal12)}>
+              <img
+                src={proyectsImg(`./SkillNotionSlider.jpg`)}
+                alt=""
+                className="projects__img"
+              />
+            </button>
+          </div>
           {/* expense Tracker  */}
           <div className="projects__item">
             <button onClick={() => setStateModal9(!stateModal9)}>
@@ -152,6 +171,148 @@ const Project = () => {
           </div>
         </section>
       </main>
+
+      <Modal state={stateModal11} setState={setStateModal11}>
+        <div className="content-modal">
+          <div className="pw-content">
+            <div className="single-modal-preview">
+              <img src={proyectsImg(`./EnigmaModal.jpg`)} alt="" />
+            </div>
+            <div className="single-modal-text">
+              <p>
+                <FormattedMessage
+                  id="projects-info-12-p1"
+                  defaultMessage="Developed the official website for Enigma, the tech fest of MITSDU — a fully responsive, secure, and feature-rich platform crafted with modern web technologies to deliver an engaging user experience."
+                />
+              </p>
+              <p>
+                <FormattedMessage
+                  id="projects-info-12-p2"
+                  defaultMessage="From seamless user authentication to event access and management, every feature was engineered with a strong focus on security, scalability, and performance — efficiently handling over 4,500 live users and more than 700 registered participants."
+                />
+              </p>
+              <div className="single-modal-text-2">
+                <span>Link:</span>{" "}
+                <a
+                  href="https://enigmamits.tech/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Click Here !
+                </a>
+              </div>
+              <div className="single-modal-text-3">
+                <span>
+                  <FormattedMessage
+                    id="projects-tec"
+                    defaultMessage="Used technology:"
+                  />
+                </span>
+                <div className="single-modal-tech">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
+                    alt=""
+                  />
+
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+                    alt=""
+                  />
+
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/framermotion/framermotion-original.svg"
+                    alt=""
+                  />
+
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+                    alt=""
+                  />
+
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Modal>
+
+      <Modal state={stateModal12} setState={setStateModal12}>
+        <div className="content-modal">
+          <div className="pw-content">
+            <div className="single-modal-preview">
+              <img src={proyectsImg(`./SkillNotionModal.jpg`)} alt="" />
+            </div>
+            <div className="single-modal-text">
+              <p>
+                <FormattedMessage
+                  id="projects-info-11-p1"
+                  defaultMessage="Skill Notion is a fully functional ed-tech platform that enables users to create, consume, and rate educational content. The platform is built using the MERN stack, which includes ReactJS, NodeJS, MongoDB, and ExpressJS."
+                />
+              </p>
+              <p>
+                <FormattedMessage
+                  id="projects-info-11-p2"
+                  defaultMessage="Skill Notion aims to provide:
+•	A seamless and interactive learning experience for students, making education more accessible and engaging.
+•	A platform for instructors to showcase their expertise and connect with learners across the globe.
+"
+                />
+              </p>
+              <div className="single-modal-text-2">
+                <span>Link:</span>{" "}
+                <a
+                  href="https://github.com/akshaygit2003/Eduverse"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Click Here !
+                </a>
+              </div>
+              <div className="single-modal-text-3">
+                <span>
+                  <FormattedMessage
+                    id="projects-tec"
+                    defaultMessage="Used technology:"
+                  />
+                </span>
+                <div className="single-modal-tech">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
+                    alt=""
+                  />
+
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+                    alt=""
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+                    alt=""
+                  />
+
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+                    alt=""
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg"
+                    alt=""
+                  />
+
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Modal>
 
       <Modal state={stateModal1} setState={setStateModal1}>
         <div className="content-modal">

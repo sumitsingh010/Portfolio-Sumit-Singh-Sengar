@@ -91,5 +91,11 @@
   "projects-info-9-p2": "Implemented functionality for importing/exporting data to CSV and visualizing expenses through interactive graphs.Built a fully responsive design for seamless use across devices.",
 
   "projects-info-10-p1": "Built with React and OpenWeather API : Provides real-time weather data, including temperature, humidity, wind speed, and a detailed 7-day forecast.",
-  "projects-info-10-p2": " Enhanced UX with GeoDB Cities Autocomplete : Implements a city search feature with autocomplete for seamless user experience.Fully Responsive Design : Ensures consistent usability across different screen sizes, showcasing proficiency in modern front-end development."
+  "projects-info-10-p2": " Enhanced UX with GeoDB Cities Autocomplete : Implements a city search feature with autocomplete for seamless user experience.Fully Responsive Design : Ensures consistent usability across different screen sizes, showcasing proficiency in modern front-end development.",
+
+  "projects-info-11-p1": "Skill Notion is a fully functional ed-tech platform that enables users to create, consume, and rate educational content. The platform is built using the MERN stack, which includes ReactJS, NodeJS, MongoDB, and ExpressJS.",
+  "projects-info-11-p2": "Skill Notion aims to provide a seamless and interactive learning experience for students, making education more accessible and engaging.A platform for instructors to showcase their expertise and connect with learners across the globe.",
+
+  "projects-info-12-p1": "Developed the official website for Enigma, the tech fest of MITSDU — a fully responsive, secure, and feature-rich platform crafted with modern web technologies to deliver an engaging user experience.",
+  "projects-info-12-p2": "From seamless user authentication to event access and management, every feature was engineered with a strong focus on security, scalability, and performance — efficiently handling over 4,500 live users and more than 700 registered participants."
 }
