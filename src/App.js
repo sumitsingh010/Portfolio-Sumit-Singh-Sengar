@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useLocation } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 
@@ -11,7 +11,17 @@ import Project from "./pages/Project/ProjectPage";
 import RouterScrollTop from "./components/ScrollToTop/RouterScrollTop";
 
 function App() {
+  const location = useLocation();
   const [loading, setLoading] = useState(false);
+
+  // Google Analytics
+  useEffect(() => {
+    if (window.gtag) {
+      window.gtag("config", "G-WG9Z0E34KW", {
+        page_path: location.pathname,
+      });
+    }
+  }, [location]);
 
   useEffect(() => {
     setLoading(true);
