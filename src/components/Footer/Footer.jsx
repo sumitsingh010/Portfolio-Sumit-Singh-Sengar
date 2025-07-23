@@ -15,28 +15,28 @@ const Footer = () => {
           <p>
             <FormattedMessage
               id="footer-info"
-              defaultMessage="Page created by Nahuel61920"
+              defaultMessage="Page created by sumitsingh010"
             />
           </p>
           <p>&copy; {fetchYear}. All Rights Reserved.</p>
         </div>
         <div className="social-networks">
           <a
-            href="https://www.linkedin.com/in/akshaynema"
+            href="https://www.linkedin.com/in/sumitsingh010/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-linkedin"></i>
           </a>
           <a
-            href="https://github.com/akshaygit2003"
+            href="https://github.com/sumitsingh010"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-github"></i>
           </a>
           <a
-            href="https://www.instagram.com/_akshay.45_?igsh=MXB2cGhwdXQ4cTdrYQ=="
+            href="https://www.instagram.com/sumit_singh._.010?igsh=MXNjZDJ6MmRucmUzbQ=="
             target="_blank"
             rel="noopener noreferrer"
           >

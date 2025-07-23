@@ -16,7 +16,7 @@ const Content = () => (
           <FormattedMessage id="greeting" defaultMessage="Hello" />
         </p>
         <h1 data-aos="fade-up" data-aos-delay="800">
-          <FormattedMessage id="name" defaultMessage="I am Akshay Nema" />
+          <FormattedMessage id="name" defaultMessage="I am Sumit Singh Sengar" />
         </h1>
         <p data-aos="fade-up" data-aos-delay="1000">
           <FormattedMessage id="role" defaultMessage="Frontend developer" />
@@ -25,7 +25,7 @@ const Content = () => (
         <div className="wrapper">
           <a
             className="button"
-            href="https://www.linkedin.com/in/akshaynema"
+            href="https://www.linkedin.com/in/sumitsingh010/"
             target="_blank"
             rel="noopener noreferrer"
             data-aos="fade-up"
@@ -38,7 +38,7 @@ const Content = () => (
           </a>
           <a
             className="button"
-            href="https://github.com/akshaygit2003"
+            href="https://github.com/sumitsingh010"
             target="_blank"
             rel="noopener noreferrer"
             data-aos="fade-up"
@@ -51,7 +51,7 @@ const Content = () => (
           </a>
           <a
             className="button"
-            href="https://www.instagram.com/_akshay.45_?igsh=MXB2cGhwdXQ4cTdrYQ=="
+            href="https://www.instagram.com/sumit_singh._.010?igsh=MXNjZDJ6MmRucmUzbQ=="
             target="_blank"
             rel="noopener noreferrer"
             data-aos="fade-up"
@@ -64,7 +64,7 @@ const Content = () => (
           </a>
           <a
             className="button"
-            href="mailto:akshaynema2003@gmail.com"
+            href="mailto:sengarsumit7047@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             data-aos="fade-up"

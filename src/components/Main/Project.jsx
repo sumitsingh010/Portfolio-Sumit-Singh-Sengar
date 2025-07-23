@@ -52,7 +52,7 @@ const Project = () => {
               slidesPerView: 3,
             },
           }}
-          className="projects-slider mySwiper"
+         className="projects-slider mySwiper"
         >
           <SwiperSlide className="contain">
             <img
@@ -60,16 +60,16 @@ const Project = () => {
               alt="projects"
             />
             <div className="content">
-              <h3>Task Manager</h3>
-              <p>React Based Task Manager </p>
+              <h3>Blog</h3>
+              <p>NextJS Based Blog</p>
               <p className="technologies">
                 React-Js
-                <span> -</span> Redux
-                <span> -</span> Framer Motion
-                <span> -</span> Tailwind CSS
+                <span> -</span> ReactJS
+                <span> -</span> NextJS
+                
               </p>
               <a
-                href="https://brandkiln.netlify.app/"
+                href="https://personal-b-l-o-g.netlify.app/"
                 className="custom-btn btn"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -77,7 +77,7 @@ const Project = () => {
                 <span>Demo</span>
               </a>
               <a
-                href="https://github.com/akshaygit2003/React-Dashboard"
+                href="https://github.com/sumitsingh010/Personal_blog"
                 className="custom-btn btn-code"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -123,17 +123,17 @@ const Project = () => {
           <SwiperSlide className="contain">
             <img src={projectImage(`./SkillNotionSlider.jpg`)} alt="projects" />
             <div className="content">
-              <h3>Skill-Notion</h3>
-              <p>Ed-tech Platform</p>
+              <h3>3-D Haunted House</h3>
+              <p>Interactive 3D Haunted House Experience</p>
               <p className="technologies">
                 React-Js
-                <span> -</span> MongoDB
-                <span> -</span> Express
-                <span> -</span> NodeJs
+                <span> -</span> ThreeJS
+                <span> -</span> JavaScript
+                <span> -</span> Html
                 <span> -</span> Tailwind CSS
               </p>
               <a
-                href="https://github.com/akshaygit2003/Eduverse"
+                href="https://3-d-haunted-house-six.vercel.app/"
                 className="custom-btn btn"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -141,7 +141,7 @@ const Project = () => {
                 <span>Demo</span>
               </a>
               <a
-                href="https://github.com/akshaygit2003/Eduverse"
+                href="https://github.com/sumitsingh010/3-D-Haunted-House"
                 className="custom-btn btn-code"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -155,15 +155,17 @@ const Project = () => {
           <SwiperSlide className="contain">
             <img src={projectImage(`./budget.jpg`)} alt="projects" />
             <div className="content">
-              <h3>Budget Buddy</h3>
-              <p> Expense Tracker Tool</p>
+              <h3>Apple-Website-Clone</h3>
+              <p> 3-D Landing Page using ThreeJS</p>
               <p className="technologies">
                 React-Js
-                <span> -</span> Firebase
+                <span> -</span> ReactJS
                 <span> -</span> Tailwind CSS
+                <span> -</span> ThreeJS
+                <span> -</span> Vite
               </p>
               <a
-                href="https://react-budget-buddy.netlify.app/"
+                href="https://a-p-p-l-e-clone.netlify.app/"
                 className="custom-btn btn"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -171,7 +173,7 @@ const Project = () => {
                 <span>Demo</span>
               </a>
               <a
-                href="https://github.com/akshaygit2003/ExpenseTracker"
+                href="https://github.com/sumitsingh010/Apple-website-clone"
                 className="custom-btn btn-code"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -185,15 +187,14 @@ const Project = () => {
           <SwiperSlide className="contain">
             <img src={projectImage(`./interiorfinal.png`)} alt="projects" />
             <div className="content">
-              <h3>Interior Design Website</h3>
-              <p>Interior Design Landing Page</p>
+              <h3>Travel-website</h3>
+              <p>Fully Responsive Travel Website</p>
               <p className="technologies">
-                React-Js
-                <span> -</span> Tailwind CSS
-                <span> -</span> Framer Motion
+                
+                <span> -</span> Html,CSS, JavaScript
               </p>
               <a
-                href="https://interiorbyakshay.netlify.app/"
+                href="https://tourist-html-css.netlify.app/"
                 className="custom-btn btn"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -201,7 +202,7 @@ const Project = () => {
                 <span>Demo</span>
               </a>
               <a
-                href="https://github.com/akshaygit2003/Interior-Design-React"
+                href="https://github.com/sumitsingh010/Tourest-html-css"
                 className="custom-btn btn-code"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -215,14 +216,14 @@ const Project = () => {
           <SwiperSlide className="contain">
             <img src={projectImage(`./weather.jpg`)} alt="projects" />
             <div className="content">
-              <h3>Weather Forecast</h3>
-              <p>Weather Tracking Tool </p>
+              <h3>Restaurant-Web-Template</h3>
+              
               <p className="technologies">
-                React-Js
-                <span> -</span> Open-Weather API
+                
+                <span> -</span> Html,CSS, JavaScript
               </p>
               <a
-                href="https://tracktemperature.netlify.app/"
+                href="https://restaurant-web-site-html-css.netlify.app/"
                 className="custom-btn btn"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -230,7 +231,7 @@ const Project = () => {
                 <span>Demo</span>
               </a>
               <a
-                href="https://github.com/akshaygit2003/Weather-App"
+                href="https://github.com/sumitsingh010/Restaurant-template"
                 className="custom-btn btn-code"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -243,15 +244,14 @@ const Project = () => {
           <SwiperSlide className="contain">
             <img src={projectImage(`./Text Wizards.jpg`)} alt="projects" />
             <div className="content">
-              <h3>Text Utility Tool</h3>
-              <p>React Based Text Analyser</p>
+              <h3>Employee-Management</h3>
+              <p>Web Based CRUD Application</p>
               <p className="technologies">
-                React-Js
-                <span> -</span> Tailwind CSS
-                <span> -</span> Bootstrap
+                <span> -</span> Python, Django
+                <span> -</span> HTML, CSS, Bootstrap
               </p>
               <a
-                href="https://text-wizards.netlify.app/"
+                href="https://employee-management-blush-five.vercel.app"
                 className="custom-btn btn"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -259,7 +259,7 @@ const Project = () => {
                 <span>Demo</span>
               </a>
               <a
-                href="https://github.com/akshaygit2003/Text-Wizard"
+                href="https://github.com/sumitsingh010/Employee-management"
                 className="custom-btn btn-code"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -271,15 +271,15 @@ const Project = () => {
           <SwiperSlide className="contain">
             <img src={projectImage(`./Cars.jpg`)} alt="projects" />
             <div className="content">
-              <h3>Classic Cars</h3>
-              <p>A Car Showroom Website</p>
+              <h3>Fe-male-Ecommerce</h3>
+              <p>Ecommerce Website</p>
               <p className="technologies">
                 HTML5
-                <span> -</span> CSS
+                <span> -</span> CSS, HTML
                 <span> -</span> JavaScript
               </p>
               <a
-                href="https://classic-cars-love.netlify.app/"
+                href="https://fre-male-ecommerce-website.vercel.app/"
                 className="custom-btn btn"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -287,7 +287,7 @@ const Project = () => {
                 <span>Demo</span>
               </a>
               <a
-                href="https://github.com/akshaygit2003/Classic-Cars"
+                href="https://github.com/sumitsingh010/Fre-male-Ecommerce-website"
                 className="custom-btn btn-code"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -299,15 +299,15 @@ const Project = () => {
           <SwiperSlide className="contain">
             <img src={projectImage(`./Paypal.jpg`)} alt="projects" />
             <div className="content">
-              <h3>Papal Clone Website</h3>
-              <p>Clone of Paypal </p>
+              <h3>Recipes</h3>
+              <p>React based application </p>
               <p className="technologies">
                 HTML5
-                <span> -</span> CSS
-                <span> -</span> JavaScript
+                <span> -</span> React
+                <span> -</span> ESLint integration
               </p>
               <a
-                href="https://akshaygit2003.github.io/Paypal-clone/"
+                href="https://recipes-nu-sand.vercel.app/"
                 className="custom-btn btn"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -315,7 +315,7 @@ const Project = () => {
                 <span>Demo</span>
               </a>
               <a
-                href="https://github.com/akshaygit2003/Paypal-clone"
+                href="https://github.com/sumitsingh010/Recipes"
                 className="custom-btn btn-code"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -323,90 +323,7 @@ const Project = () => {
                 Repository
               </a>
             </div>
-          </SwiperSlide>
-          <SwiperSlide className="contain">
-            <img src={projectImage(`./business.png`)} alt="projects" />
-            <div className="content">
-              <h3>Business Website </h3>
-              <p>Landing Page </p>
-              <p className="technologies">
-                HTML5
-                <span> -</span> CSS
-                <span> -</span> JavaScript
-              </p>
-              <a
-                href="https://akshaygit2003.github.io/Business-Website/"
-                className="custom-btn btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span>Demo</span>
-              </a>
-              <a
-                href="https://github.com/akshaygit2003/Business-Website"
-                className="custom-btn btn-code"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Repository
-              </a>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="contain">
-            <img src={projectImage(`./Food Website.jpg`)} alt="projects" />
-            <div className="content">
-              <h3>Food Website </h3>
-              <p>Food Menu Landing Page</p>
-              <p className="technologies">
-                HTML5
-                <span> -</span> CSS
-                <span> -</span> JavaScript
-              </p>
-              <a
-                href="https://akshaygit2003.github.io/Food-Website/"
-                className="custom-btn btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span>Demo</span>
-              </a>
-              <a
-                href="https://github.com/akshaygit2003/Food-Website"
-                className="custom-btn btn-code"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Repository
-              </a>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="contain">
-            <img src={projectImage(`./PasswordGenerator.jpg`)} alt="projects" />
-            <div className="content">
-              <h3>Password Generator</h3>
-              <p>Password Generator Tool</p>
-              <p className="technologies">
-                HTML5
-                <span> -</span> CSS
-                <span> -</span> JavaScript
-              </p>
-              <a
-                href="https://akshaygit2003.github.io/Password-Generator/"
-                className="custom-btn btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span>Demo</span>
-              </a>
-              <a
-                href="https://github.com/akshaygit2003/Password-Generator"
-                className="custom-btn btn-code"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Repository
-              </a>
-            </div>
+          
           </SwiperSlide>
         </Swiper>
         <div className="swiper-pagination"></div>

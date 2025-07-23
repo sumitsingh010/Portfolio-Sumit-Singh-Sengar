@@ -35,7 +35,7 @@ const Services = () => {
               <p>
                 <FormattedMessage
                   id="DSA-info"
-                  defaultMessage="I specialize in crafting optimized solutions for complex challenges, leveraging my experience with over 400+ DSA questions across multiple platforms."
+                  defaultMessage="I excel at developing efficient solutions to complex problems, backed by hands-on experience solving 250+ Data Structures and Algorithms questions across diverse platforms."
                 />
               </p>
             </div>
@@ -50,7 +50,7 @@ const Services = () => {
               <p>
                 <FormattedMessage
                   id="development-info"
-                  defaultMessage="Creation of well-structured web pages, good responsive design, attractive color palette, with interactions that give the user satisfaction when browsing the website."
+                  defaultMessage="Designing well-structured, responsive web pages with visually appealing color palettes and seamless interactions that enhance user satisfaction and engagement."
                 />
               </p>
             </div>
@@ -65,7 +65,7 @@ const Services = () => {
               <p>
                 <FormattedMessage
                   id="backend-info"
-                  defaultMessage="Complete maintenance of web pages to detect and solve errors, update content whether text, photos, web design elements, add new functions, etc."
+                  defaultMessage="Comprehensive maintenance of web pages, including error detection and resolution, content updates, design enhancements, and integration of new features."
                 />
               </p>
             </div>
@@ -80,7 +80,7 @@ const Services = () => {
               <p>
                 <FormattedMessage
                   id="social-media-info"
-                  defaultMessage="Complete maintenance of web pages to detect and solve errors, update content whether text, photos, web design elements, add new functions, etc."
+                  defaultMessage="End-to-end website maintenance encompassing error resolution, content and media updates, design refinement, and seamless integration of new functionalities."
                 />
               </p>
             </div>
@@ -95,7 +95,7 @@ const Services = () => {
               <p>
                 <FormattedMessage
                   id="cleancode-info"
-                  defaultMessage="Web positioning through SEO, so your website appears in the main search results according to your business, both in Google, Bing, or other internet search engines"
+                  defaultMessage="Search engine optimization (SEO) to strategically position your website among top search results on Google, Bing, and other major search engines, tailored to your business goals."
                 />
               </p>
             </div>
@@ -110,7 +110,7 @@ const Services = () => {
               <p>
                 <FormattedMessage
                   id="website-optimization-info"
-                  defaultMessage="Complete optimization of your web page, improving loading speed, using optimized images, a good URL, to give a better experience to users who visit the website"
+                  defaultMessage="Comprehensive website optimization focused on enhancing loading speed, utilizing optimized images, and implementing clean URLs to deliver a seamless and engaging user experience."
                 />
               </p>
             </div>
@@ -129,13 +129,13 @@ const Services = () => {
               title={
                 <FormattedMessage
                   id="services-questions-1"
-                  defaultMessage="What is a responsive web page?"
+                  defaultMessage="Why is website performance optimization important?"
                 />
               }
               content={
                 <FormattedMessage
                   id="services-questions-p1"
-                  defaultMessage="It is that page that is capable of adapting to any device where it is viewed, such as cell phones, tablets, laptops, without losing appearance or usability."
+                  defaultMessage="Website performance optimization improves loading speed, enhances user experience, reduces bounce rates, and boosts search engine rankings—making your site more effective and engaging across all devices."
                 />
               }
               dataAos="fade-right"
@@ -146,13 +146,13 @@ const Services = () => {
               title={
                 <FormattedMessage
                   id="services-questions-2"
-                  defaultMessage="What is a Domain and a Hosting?"
+                  defaultMessage="How do Domain and Hosting work together?"
                 />
               }
               content={
                 <FormattedMessage
                   id="services-questions-p2"
-                  defaultMessage="Both are essential elements of a website. In short, the domain name is the address of the web page, while the hosting provides the space and resources necessary to launch the website."
+                  defaultMessage="The domain acts as your website’s address, while hosting is the server where your website's content lives. Together, they allow users to access your site through a browser seamlessly."
                 />
               }
               dataAos="fade-left"
@@ -163,13 +163,13 @@ const Services = () => {
               title={
                 <FormattedMessage
                   id="services-questions-3"
-                  defaultMessage="Is monthly maintenance necessary?"
+                  defaultMessage="Why is ongoing website maintenance important?"
                 />
               }
               content={
                 <FormattedMessage
                   id="services-questions-p3"
-                  defaultMessage="Regular maintenance of your website allows you to attract and retain customers with new information, new products and services, in addition to helping you maintain or improve your ranking in Google."
+                  defaultMessage="Ongoing maintenance ensures your website stays updated, secure, and fully functional. It helps improve performance, keeps content relevant, and supports better search engine visibility over time."
                 />
               }
               dataAos="fade-right"
@@ -180,13 +180,13 @@ const Services = () => {
               title={
                 <FormattedMessage
                   id="services-questions-4"
-                  defaultMessage="How to pay"
+                  defaultMessage="What payment methods are available?"
                 />
               }
               content={
                 <FormattedMessage
                   id="services-questions-p4"
-                  defaultMessage="You can pay online by credit or debit cards and payments by transfers."
+                  defaultMessage="We accept secure online payments via credit cards, debit cards, and bank transfers for your convenience."
                 />
               }
               dataAos="fade-left"

@@ -52,7 +52,7 @@ const About = () => {
               <p>
                 <FormattedMessage
                   id="about-info-1"
-                  defaultMessage="Hello! I am Akshay Nema, a third-year computer science and engineering student. With a good foundation in Data Structures and Algorithms and over 400 questions solved across several platforms, I bring problem-solving abilities to every job I handle."
+                  defaultMessage="Hello! I am Sumit Singh, a final year computer science and engineering student. With a good foundation in Data Structures and Algorithms and over 250+ questions solved across several platforms, I bring problem-solving abilities to every job I handle."
                 />
               </p>
 
@@ -60,7 +60,7 @@ const About = () => {
                 <p>
                   <FormattedMessage
                     id="about-info-2"
-                    defaultMessage="As a Front-End Developer, I specialize in developing responsive, dynamic user interfaces with HTML, CSS, JavaScript, and React. I'm now expanding my skill set by learning the MERN stack (MongoDB, Express, React, and Node.js) to improve my full-stack development talents. My front-end experience includes using current tools such as Redux for state management, Tailwind CSS for custom styling, and Bootstrap for responsive design."
+                    defaultMessage="As a Full Stack Developer, I specialize in developing responsive, dynamic user interfaces with HTML, CSS, JavaScript, and React. I'm now expanding my skill set by learning the MERN stack (MongoDB, Express, React, and Node.js) to improve my full-stack development talents. My front-end experience includes using current tools such as Redux for state management, Tailwind CSS for custom styling, and Bootstrap for responsive design."
                   />
                 </p>
 
@@ -101,11 +101,11 @@ const About = () => {
                 <br />
 
                 <p className="education-info">
-                  <p className="score">CGPA - 8.5</p>
+                  <p className="score">CGPA - 7.7</p>
                   <br />
                   <FormattedMessage
                     id="education-btech"
-                    defaultMessage="Currently pursuing B.Tech in Computer Science and Engineering at Madhav Institute of Technology & Science, Gwalior"
+                    defaultMessage="Currently pursuing B.Tech in Computer Science and Engineering at Madhav Institute of Technology & Science-Deemed University, Gwalior"
                   />
                 </p>
               </div>
@@ -117,12 +117,12 @@ const About = () => {
                 data-aos-delay="300"
               >
                 <h2 className="education-degree">
-                  Class 12th <p className="education-year">2021</p>
+                  Class 12th <p className="education-year">2020</p>
                 </h2>
 
                 <br />
                 <p className="education-info">
-                  <p className="score">Percentage - 90.6%</p>
+                  <p className="score">Percentage - 79.6%</p>
                   <br />
                   <FormattedMessage
                     id="education-12"
@@ -138,10 +138,10 @@ const About = () => {
                 data-aos-delay="300"
               >
                 <h2 className="education-degree">Class 10th </h2>
-                <p className="education-year">2019</p>
+                <p className="education-year">2018</p>
                 <br />
                 <p className="education-info">
-                  <p className="score">Percentage - 92.4%</p>
+                  <p className="score">Percentage - 76.4%</p>
                   <br />
                   <FormattedMessage
                     id="education-10"

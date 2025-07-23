@@ -23,9 +23,7 @@ const Project = () => {
   const [stateModal1, setStateModal1] = useState(false);
   const [stateModal2, setStateModal2] = useState(false);
   const [stateModal3, setStateModal3] = useState(false);
-  const [stateModal4, setStateModal4] = useState(false);
-  const [stateModal5, setStateModal5] = useState(false);
-  const [stateModal6, setStateModal6] = useState(false);
+
   const [stateModal7, setStateModal7] = useState(false);
 
   const [stateModal8, setStateModal8] = useState(false);
@@ -133,33 +131,8 @@ const Project = () => {
               />
             </button>
           </div>
-          <div className="projects__item">
-            <button onClick={() => setStateModal4(!stateModal4)}>
-              <img
-                alt="Business img"
-                src={proyectsImg(`./business.png`)}
-                className="projects__img"
-              />
-            </button>
-          </div>
-          <div className="projects__item">
-            <button onClick={() => setStateModal5(!stateModal5)}>
-              <img
-                src={proyectsImg(`./PasswordGenerator.jpg`)}
-                alt=""
-                className="projects__img"
-              />
-            </button>
-          </div>
-          <div className="projects__item">
-            <button onClick={() => setStateModal6(!stateModal6)}>
-              <img
-                src={proyectsImg(`./Food Website.jpg`)}
-                alt=""
-                className="projects__img"
-              />
-            </button>
-          </div>
+         
+          
           <div className="projects__item">
             <button onClick={() => setStateModal7(!stateModal7)}>
               <img
@@ -181,14 +154,14 @@ const Project = () => {
             <div className="single-modal-text">
               <p>
                 <FormattedMessage
-                  id="projects-info-12-p1"
+                  id="projects-info-9-p1"
                   defaultMessage="Developed the official website for Enigma, the tech fest of MITSDU — a fully responsive, secure, and feature-rich platform crafted with modern web technologies to deliver an engaging user experience."
                 />
               </p>
               <p>
                 <FormattedMessage
-                  id="projects-info-12-p2"
-                  defaultMessage="From seamless user authentication to event access and management, every feature was engineered with a strong focus on security, scalability, and performance — efficiently handling over 4,500 live users and more than 700 registered participants."
+                  id="projects-info-9-p2"
+                  defaultMessage="Engineered robust features ranging from seamless user authentication to event access and management, with a strong emphasis on security, scalability, and performance — successfully supporting over 4,500 live users and 700+ registered participants."
                 />
               </p>
               <div className="single-modal-text-2">
@@ -249,23 +222,23 @@ const Project = () => {
             <div className="single-modal-text">
               <p>
                 <FormattedMessage
-                  id="projects-info-11-p1"
-                  defaultMessage="Skill Notion is a fully functional ed-tech platform that enables users to create, consume, and rate educational content. The platform is built using the MERN stack, which includes ReactJS, NodeJS, MongoDB, and ExpressJS."
+                  id="projects-info-8-p1"
+                  defaultMessage="3D Haunted House is an immersive and interactive 3D web experience designed to simulate a spooky haunted house environment. Built using Three.js, HTML, and CSS, the project combines real-time 3D rendering with smooth user interactions to create a visually engaging environment."
                 />
               </p>
               <p>
                 <FormattedMessage
-                  id="projects-info-11-p2"
-                  defaultMessage="Skill Notion aims to provide:
-•	A seamless and interactive learning experience for students, making education more accessible and engaging.
-•	A platform for instructors to showcase their expertise and connect with learners across the globe.
+                  id="projects-info-8-p2"
+                  defaultMessage="3D Haunted House aims to provide:
+•	A realistic and  walkthrough experience using modern 3D web technologies.
+•	A learning showcase for implementing textures, lighting, shadows, and camera controls in a 3D scene.
 "
                 />
               </p>
               <div className="single-modal-text-2">
                 <span>Link:</span>{" "}
                 <a
-                  href="https://github.com/akshaygit2003/Eduverse"
+                  href="https://3-d-haunted-house-six.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -324,19 +297,19 @@ const Project = () => {
               <p>
                 <FormattedMessage
                   id="projects-info-1-p1"
-                  defaultMessage="Built a responsive Task Management Dashboard using React and Redux for state management."
+                  defaultMessage="Built a responsive Personal Blog using HTML, CSS, and JavaScript to showcase posts and portfolio content with a clean, minimal design optimized for all devices."
                 />
               </p>
               <p>
                 <FormattedMessage
                   id="projects-info-1-p2"
-                  defaultMessage="The project includes robust CRUD (Create, Read, Update, Delete) operations for tasks, allowing users to manage their tasks effortlessly. The integration of Redux ensures centralized state handling, enhancing application scalability and maintainability."
+                  defaultMessage="The site is fully optimized for different screen sizes, ensuring seamless viewing across mobile, tablet, and desktop devices. Its minimal design and structured content make it ideal for static publishing or as a foundation for future CMS integration."
                 />
               </p>
               <div className="single-modal-text-2">
                 <span>Link:</span>{" "}
                 <a
-                  href="https://brandkiln.netlify.app/"
+                  href="https://personal-b-l-o-g.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -384,19 +357,19 @@ const Project = () => {
               <p>
                 <FormattedMessage
                   id="projects-info-2-p1"
-                  defaultMessage="Built a Text Analyzer with features to format text, including uppercase, lowercase, and clearing text."
+                  defaultMessage="  Built an Employee Management System using Python and Django, designed to manage employee records with functionalities like add, update, delete, and search."
                 />
               </p>
               <p>
                 <FormattedMessage
                   id="projects-info-2-p2"
-                  defaultMessage="The tool is enriched with advanced functionalities such as dark/light theme toggles, text-to-speech conversion, copying text, and estimating reading time."
+                  defaultMessage=" The system features a user-friendly interface for easy navigation and management of employee data, ensuring efficient record-keeping and retrieval. It is fully responsive, adapting seamlessly to various screen sizes for optimal usability across devices." 
                 />
               </p>
               <div className="single-modal-text-2">
                 <span>Link:</span>{" "}
                 <a
-                  href="https://text-wizards.netlify.app/"
+                  href="https://github.com/sumitsingh010/Employee-management"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -441,187 +414,19 @@ const Project = () => {
               <p>
                 <FormattedMessage
                   id="projects-info-3-p1"
-                  defaultMessage="Created a visually captivating Classic Car Project inspired by a retro theme using HTML, CSS, and JavaScript. The project showcases vintage cars with a nostalgic design, featuring vibrant retro color palettes, bold typography, and smooth transitions."
+                  defaultMessage="Developed a visually engaging eCommerce website, Fre-male, using HTML, CSS, and JavaScript. The site features a modern, vibrant design with bold typography, smooth transitions, and responsive layouts. It showcases a wide range of fashion and lifestyle products, offering intuitive navigation and an interactive shopping experience."
                 />
               </p>
               <p>
                 <FormattedMessage
                   id="projects-info-3-p2"
-                  defaultMessage="The project features smooth animations, and interactive hover effects. JavaScript enhances the experience with dynamic elements such as a carousel for browsing cars and responsive design to ensure compatibility across devices."
+                  defaultMessage="The project features smooth animations and interactive hover effects. JavaScript enhances the experience with dynamic elements such as product carousels, modals, and notification toasts. The responsive design ensures seamless browsing and shopping across all devices, creating an engaging and modern eCommerce experience."
                 />
               </p>
               <div className="single-modal-text-2">
                 <span>Link:</span>{" "}
                 <a
-                  href="https://classic-cars-love.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Click Here !
-                </a>
-              </div>
-              <div className="single-modal-text-3">
-                <span>
-                  <FormattedMessage
-                    id="projects-tec"
-                    defaultMessage="Used technology:"
-                  />
-                </span>
-                <div className="single-modal-tech">
-                  <img
-                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
-                    alt=""
-                  />
-                  <img
-                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
-                    alt=""
-                  />
-                  <img
-                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </Modal>
-
-      <Modal state={stateModal4} setState={setStateModal4}>
-        <div className="content-modal">
-          <div className="pw-content">
-            <div className="single-modal-preview">
-              <img src={proyectsImg(`./businessModal1.jpg`)} alt="" />
-            </div>
-            <div className="single-modal-text">
-              <p>
-                <FormattedMessage
-                  id="projects-info-4-p1"
-                  defaultMessage="Developed a polished Business Agency Landing Page using HTML, CSS, and JavaScript."
-                />
-              </p>
-              <p>
-                <FormattedMessage
-                  id="projects-info-4-p2"
-                  defaultMessage="The page is designed with a modern aesthetic, featuring a clean layout and intuitive navigation. Smooth card animations enhance the visual appeal, creating a dynamic browsing experience that captivates users and leaves a professional impression."
-                />
-              </p>
-              <div className="single-modal-text-2">
-                <span>Link:</span>{" "}
-                <a
-                  href="https://akshaygit2003.github.io/Business-Website/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Click Here !
-                </a>
-              </div>
-              <div className="single-modal-text-3">
-                <span>
-                  <FormattedMessage
-                    id="projects-tec"
-                    defaultMessage="Used technology:"
-                  />
-                </span>
-                <div className="single-modal-tech">
-                  <img
-                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
-                    alt=""
-                  />
-                  <img
-                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
-                    alt=""
-                  />
-                  <img
-                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </Modal>
-
-      <Modal state={stateModal5} setState={setStateModal5}>
-        <div className="content-modal">
-          <div className="pw-content">
-            <div className="single-modal-preview">
-              <img src={proyectsImg(`./passtool.jpg`)} alt="" />
-            </div>
-            <div className="single-modal-text">
-              <p>
-                <FormattedMessage
-                  id="projects-info-5-p1"
-                  defaultMessage="Built a Password Generator Tool using HTML, CSS, and JavaScript, providing users with secure, randomized passwords effortlessly."
-                />
-              </p>
-              <p>
-                <FormattedMessage
-                  id="projects-info-5-p2"
-                  defaultMessage="The Password Generator Tool includes features for generating passwords with lowercase, uppercase letters, numbers, symbols, and spaces. Additionally, it allows users to exclude duplicate characters, ensuring unique and strong passwords tailored to specific security needs."
-                />
-              </p>
-              <div className="single-modal-text-2">
-                <span>Link:</span>{" "}
-                <a
-                  href="https://akshaygit2003.github.io/Password-Generator/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Click Here !
-                </a>
-              </div>
-              <div className="single-modal-text-3">
-                <span>
-                  <FormattedMessage
-                    id="projects-tec"
-                    defaultMessage="Used technology:"
-                  />
-                </span>
-                <div className="single-modal-tech">
-                  <img
-                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
-                    alt=""
-                  />
-                  <img
-                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
-                    alt=""
-                  />
-                  <img
-                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </Modal>
-
-      <Modal state={stateModal6} setState={setStateModal6}>
-        <div className="content-modal">
-          <div className="pw-content">
-            <div className="single-modal-preview">
-              <img src={proyectsImg(`./foodmenu.jpg`)} alt="" />
-            </div>
-            <div className="single-modal-text">
-              <p>
-                <FormattedMessage
-                  id="projects-info-6-p1"
-                  defaultMessage="Developed a Food Menu Website using HTML, CSS, and JavaScript, designed for a seamless user experience. The website showcases an interactive and visually appealing menu, enhancing user engagement through smooth navigation."
-                />
-              </p>
-              <p>
-                <FormattedMessage
-                  id="projects-info-6-p2"
-                  defaultMessage="Fully responsive, the website adapts seamlessly to all screen sizes, ensuring smooth functionality across devices. CSS animations and JavaScript interactivity contribute to a fluid and engaging browsing experience for users."
-                />
-              </p>
-              <div className="single-modal-text-2">
-                <span>Link:</span>{" "}
-                <a
-                  href="https://akshaygit2003.github.io/Food-Website/"
+                  href="https://fre-male-ecommerce-website.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -666,20 +471,20 @@ const Project = () => {
             <div className="single-modal-text">
               <p>
                 <FormattedMessage
-                  id="projects-info-8-p1"
-                  defaultMessage="Built an Interior Design website using React, Tailwind CSS, and Framer Motion for smooth animations."
+                  id="projects-info-5-p1"
+                  defaultMessage="Built a responsive Tourist Website using HTML, CSS, and JavaScript, showcasing travel destinations and packages with an engaging layout."
                 />
               </p>
               <p>
                 <FormattedMessage
-                  id="projects-info-8-p2"
-                  defaultMessage="Showcases responsive layouts optimized for different screen sizes, ensuring a seamless user experience and Demonstrates proficiency in Tailwind CSS for utility-first styling and Framer Motion for dynamic UI elements."
+                  id="projects-info-5-p2"
+                  defaultMessage="The website features a user-friendly interface with smooth navigation, allowing users to explore various travel options easily. It is fully responsive, ensuring optimal viewing and interaction across all devices, from desktops to mobile phones."
                 />
               </p>
               <div className="single-modal-text-2">
                 <span>Link:</span>{" "}
                 <a
-                  href="https://interiorbyakshay.netlify.app/"
+                  href="https://tourist-html-css.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -725,20 +530,21 @@ const Project = () => {
             <div className="single-modal-text">
               <p>
                 <FormattedMessage
-                  id="projects-info-9-p1"
-                  defaultMessage="Developed an Expense Tracker app using React, Firebase, and Ant Design, featuring user authentication."
+                  id="projects-info-6-p1"
+                  defaultMessage="Developed an Apple Homepage Clone using HTML, CSS, and JavaScript, replicating the design and layout of Apple’s official website. The project focuses on pixel-perfect UI, smooth scrolling, and clean section transitions to mirror the premium feel of Apple’s branding."
                 />
               </p>
               <p>
                 <FormattedMessage
-                  id="projects-info-9-p2"
-                  defaultMessage="Implemented functionality for importing/exporting data to CSV and visualizing expenses through interactive graphs.Built a fully responsive design for seamless use across devices."
+                  id="projects-info-6-p2"
+                  defaultMessage="The clone is fully responsive and showcases attention to detail in animations, grid layouts, and typography. It serves as a front-end practice project to sharpen skills in recreating real-world, high-fidelity web interfaces."
+
                 />
               </p>
               <div className="single-modal-text-2">
                 <span>Link:</span>{" "}
                 <a
-                  href="https://react-budget-buddy.netlify.app/"
+                  href="https://a-p-p-l-e-clone.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -784,21 +590,20 @@ const Project = () => {
             <div className="single-modal-text">
               <p>
                 <FormattedMessage
-                  id="projects-info-10-p1"
-                  defaultMessage="Built with React and OpenWeather API : Provides real-time weather data, including temperature, humidity, wind speed, and a detailed 7-day forecast."
+                  id="projects-info-7-p1"
+                  defaultMessage="Developed a responsive Restaurant Template using HTML, CSS, and JavaScript, designed to showcase menus, specials, and reservations in a modern layout."
                 />
               </p>
               <p>
                 <FormattedMessage
-                  id="projects-info-10-p2"
-                  defaultMessage="Enhanced UX with GeoDB Cities Autocomplete : Implements a city search feature with autocomplete for seamless user experience.
-                  Fully Responsive Design : Ensures consistent usability across different screen sizes, showcasing proficiency in modern front-end development."
+                  id="projects-info-7-p2"
+                  defaultMessage=" The template features a clean UI, smooth scrolling, and mobile optimization, making it a solid front-end project for hospitality and food service websites."
                 />
               </p>
               <div className="single-modal-text-2">
                 <span>Link:</span>{" "}
                 <a
-                  href="https://tracktemperature.netlify.app/"
+                  href="https://restaurant-web-site-html-css.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -837,20 +642,20 @@ const Project = () => {
             <div className="single-modal-text">
               <p>
                 <FormattedMessage
-                  id="projects-info-7-p1"
-                  defaultMessage="Developed a PayPal Clone website using HTML, CSS, and JavaScript, featuring login and signup pages. The design is sleek and functional, mimicking PayPal’s interface with responsive layouts and smooth animations for an engaging user experience."
+                  id="projects-info-4-p1"
+                  defaultMessage="Developed a Recipes website using HTML, CSS, and JavaScript, featuring a user-friendly interface for browsing, searching, and viewing various recipes. The site includes dedicated pages for recipe details, categories, and a responsive layout that adapts seamlessly to different devices. Smooth transitions and interactive elements enhance the user experience, making it easy to discover and manage favorite recipes."
                 />
               </p>
               <p>
                 <FormattedMessage
-                  id="projects-info-7-p2"
-                  defaultMessage="The website adjusts seamlessly to all screen sizes, ensuring compatibility across devices. JavaScript enhances interactivity, while CSS animations provide smooth transitions, creating a polished, user-friendly experience."
+                  id="projects-info-4-p2"
+                  defaultMessage="The website adapts effortlessly to any screen size, ensuring a consistent experience on all devices. JavaScript powers dynamic features such as recipe filtering and interactive elements, while CSS animations deliver smooth transitions for a visually appealing and intuitive user interface."
                 />
               </p>
               <div className="single-modal-text-2">
                 <span>Link:</span>{" "}
                 <a
-                  href="https://akshaygit2003.github.io/Paypal-clone/"
+                  href="https://recipes-nu-sand.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >

@@ -31,7 +31,7 @@ const HeaderPage = () => {
 
       <NavLink className="logo" to="/">
         <p>
-          (<span>Akshay Nema</span>)
+          (<span>Sumit Singh Sengar</span>)
         </p>
       </NavLink>
 
@@ -48,18 +48,7 @@ const HeaderPage = () => {
         <NavLink to="/project" offset={-150} duration={500}>
           <FormattedMessage id="projects" defaultMessage="Projects" />
         </NavLink>
-        {/* <div id="buttons">
-          <img
-            onClick={() => idioma.selectLanguage("en-US")}
-            src="https://nahuel61920.github.io/Portafoliovirtual/img/en.png"
-            alt="EEUU"
-          />
-          <img
-            onClick={() => idioma.selectLanguage("es-ES")}
-            src="https://nahuel61920.github.io/Portafoliovirtual/img/es.png"
-            alt="España"
-          />
-        </div> */}
+        
       </nav>
       <div className="switch" id="switch">
         <DarkMode />

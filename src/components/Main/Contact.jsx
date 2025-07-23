@@ -1,7 +1,7 @@
 import React from "react";
 import "../../pages/Contact/ContactPage.css";
 /* TypedJs */
-import Typical from "react-typical";
+import Typewriter from "typewriter-effect";
 
 /* Multi language*/
 import { FormattedMessage } from "react-intl";
@@ -13,23 +13,17 @@ const Contact = () => (
     </h2>
     <h3 className="title" data-aos="fade-left" data-aos-delay="300">
       <FormattedMessage id="contact-info" defaultMessage="Contact me by: " />
-      <Typical
-        className="site-contacts"
-        loop={Infinity}
-        wrapper="b"
-        steps={[
-          "Gmail",
-          2000,
-          "LinkedIn",
-          2000,
-          "Instagram",
-          2000,
-          "GitHub",
-          2000,
-          "Telegram",
-          2000,
-        ]}
-      />
+      <b className="site-contacts">
+        <Typewriter
+          options={{
+            strings: ['Gmail', 'LinkedIn', 'Instagram', 'GitHub'],
+            autoStart: true,
+            loop: true,
+            delay: 75,
+            deleteSpeed: 50,
+          }}
+        />
+      </b>
     </h3>
 
     {/* <div
@@ -43,13 +37,14 @@ const Contact = () => (
       data-form-id="112288"
     >
       Feedback Form
-      <script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
+      <script src="https://docs.google.com/forms/d/e/1FAIpQLSd0nBPuPsOT1ebgDr9JTXmOlO0-Crt59oMU38Ev4V3O33J48Q/viewform?usp=preview",
+            "_blank"></script>
     </div> */}
     <div>
       <button
         onClick={() =>
           window.open(
-            "https://forms.visme.co/formsPlayer/01918y93-portfolio-feedback",
+           "https://docs.google.com/forms/d/e/1FAIpQLSd0nBPuPsOT1ebgDr9JTXmOlO0-Crt59oMU38Ev4V3O33J48Q/viewform?usp=preview",
             "_blank"
           )
         }
@@ -60,7 +55,7 @@ const Contact = () => (
     </div>
     <div className="icons">
       <a
-        href="mailto:akshaynema2003@gmail.com"
+        href="mailto:sengarsumit7047@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
         data-aos="zoom-in"
@@ -75,7 +70,7 @@ const Contact = () => (
         <div className="text">Gmail</div>
       </a>
       <a
-        href="https://www.linkedin.com/in/akshaynema"
+        href="https://www.linkedin.com/in/sumitsingh010/"
         target="_blank"
         rel="noopener noreferrer"
         data-aos="zoom-in"
@@ -90,7 +85,7 @@ const Contact = () => (
         <div className="text">LinkedIn</div>
       </a>
       <a
-        href="https://www.instagram.com/_akshay.45_?igsh=MXB2cGhwdXQ4cTdrYQ=="
+        href="https://www.instagram.com/sumit_singh._.010?igsh=MXNjZDJ6MmRucmUzbQ=="
         target="_blank"
         rel="noopener noreferrer"
         data-aos="zoom-in"
@@ -106,7 +101,7 @@ const Contact = () => (
       </a>
 
       <a
-        href="https://github.com/akshaygit2003"
+        href="https://github.com/sumitsingh010"
         target="_blank"
         rel="noopener noreferrer"
         data-aos="zoom-in"
@@ -119,21 +114,6 @@ const Contact = () => (
           <span className="fab fa-github-square"></span>
         </div>
         <div className="text">GitHub</div>
-      </a>
-      <a
-        href="https://t.me/AkshayNema"
-        target="_blank"
-        rel="noopener noreferrer"
-        data-aos="zoom-in"
-      >
-        <div className="layer">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span className="fab fa-telegram"></span>
-        </div>
-        <div className="text">Telegram</div>
       </a>
     </div>
   </section>

@@ -32,7 +32,7 @@ const Header = () => {
 
       <NavLink className="logo" to="/">
         <p>
-          (<span>Akshay Nema</span>)
+          (<span>Sumit Singh Sengar</span>)
         </p>
       </NavLink>
 

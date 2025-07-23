@@ -22,13 +22,13 @@ const About = () => (
         <h4>
           <FormattedMessage
             id="description"
-            defaultMessage="My name is Akshay Nema and I am a Frontend developer."
+            defaultMessage="My name is Sumit Singh Sengar and I am a Full Stack Developer."
           />
         </h4>
         <p>
           <FormattedMessage
             id="my-description"
-            defaultMessage="I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team."
+            defaultMessage="Self-motivated Full Stack Developer passionate about learning new technologies and building scalable, user-friendly web applications."
           />
         </p>
         <ul>
@@ -43,12 +43,12 @@ const About = () => (
           <li>
             <p>
               <span>Hobbies: </span>
-              Table Tennis, Badminton, Swimming and Programming.
+              Cricket, Gym, Running, Hiking and Coding.
             </p>
           </li>
           <li>
             <p>
-              <span>Email:</span> akshaynema2003@gmail.com
+              <span>Email:</span> sengarsumit7047@gmail.com
             </p>
           </li>
           <li>
@@ -56,7 +56,7 @@ const About = () => (
               <span>
                 <FormattedMessage id="from" defaultMessage="From:" />
               </span>
-              Jabalpur, Madhya Pradesh
+              Gwalior, Madhya Pradesh
             </p>
           </li>
         </ul>
@@ -65,7 +65,7 @@ const About = () => (
             href={cv}
             target="_blank"
             rel="noopener noreferrer"
-            download="Akshay Nema Resume.pdf" // By This name pdf will be downloaded
+            download="Sumit Singh Resume.pdf" // By This name pdf will be downloaded
             className="btn-code buttonDownload"
           >
             <FormattedMessage id="Resume" defaultMessage="Resume" />

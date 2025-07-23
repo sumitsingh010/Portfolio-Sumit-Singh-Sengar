@@ -36,8 +36,8 @@ function App() {
       {loading ? (
         <div className="loading-page">
           <div className="loader">
-            <span>=(Akshay Nema)=> </span>
-            <span>=(Akshay Nema)=> </span>
+            <span>=(Sumit Singh Sengar)={'>'} </span>
+            <span>=(Sumit Singh Sengar)={'>'} </span>
           </div>
         </div>
       ) : (
