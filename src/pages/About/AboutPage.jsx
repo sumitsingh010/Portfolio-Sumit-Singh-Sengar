@@ -137,8 +137,9 @@ const About = () => {
                 data-aos="flip-right"
                 data-aos-delay="300"
               >
-                <h2 className="education-degree">Class 10th </h2>
-                <p className="education-year">2019</p>
+                <h2 className="education-degree">
+                  Class 10th <p className="education-year">2019</p>
+                </h2>
                 <br />
                 <p className="education-info">
                   <p className="score">Percentage - 76.4%</p>
