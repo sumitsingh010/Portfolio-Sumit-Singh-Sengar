@@ -117,7 +117,7 @@ const About = () => {
                 data-aos-delay="300"
               >
                 <h2 className="education-degree">
-                  Class 12th <p className="education-year">2020</p>
+                  Class 12th <p className="education-year">2021</p>
                 </h2>
 
                 <br />
@@ -138,7 +138,7 @@ const About = () => {
                 data-aos-delay="300"
               >
                 <h2 className="education-degree">Class 10th </h2>
-                <p className="education-year">2018</p>
+                <p className="education-year">2019</p>
                 <br />
                 <p className="education-info">
                   <p className="score">Percentage - 76.4%</p>
