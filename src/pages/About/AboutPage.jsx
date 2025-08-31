@@ -11,6 +11,7 @@ import { FormattedMessage } from "react-intl";
 
 /* Img */
 import imgabout from "../../img/home.jpg";
+import cv from "../../cv/UpdatedResume.pdf";
 
 const About = () => {
   function readMore() {
@@ -38,15 +39,15 @@ const About = () => {
             <div className="about-me-img-container">
               <img src={imgabout} alt="" className="about-me-img" />
 
-              {/* <a
+              <a
                 href={cv}
                 target="_blank"
                 rel="noopener noreferrer"
-                download="UpdatedResume.pdf"
+                download="Sumit Singh Resume 2025.pdf"
                 className="btn-code cv buttonDownload"
               >
                 <FormattedMessage id="Resume" defaultMessage="Resume" />
-              </a> */}
+              </a>
             </div>
             <div className="about-me-info">
               <p>

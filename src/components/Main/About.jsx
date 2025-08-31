@@ -65,7 +65,7 @@ const About = () => (
             href={cv}
             target="_blank"
             rel="noopener noreferrer"
-            download="Sumit Singh Resume.pdf" // By This name pdf will be downloaded
+            download="Sumit Singh Resume 2025.pdf" // By This name pdf will be downloaded
             className="btn-code buttonDownload"
           >
             <FormattedMessage id="Resume" defaultMessage="Resume" />
